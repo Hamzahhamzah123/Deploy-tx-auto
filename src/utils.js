@@ -3,7 +3,7 @@ const fs = require('fs');
 const readlineSync = require('readline-sync');
 
 function loadNetworkConfig() {
-  const filePath = `./chains/fhenix.json`;  // Gunakan fhenix.json secara langsung
+  const filePath = `./chains/Testnet.json`;  // Gunakan testnet.json secara langsung
   try {
     const rawData = fs.readFileSync(filePath);
     return JSON.parse(rawData);
