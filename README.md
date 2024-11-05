@@ -1,3 +1,9 @@
+Bot repeatedly deploy SC
+
+
+
+
+
 Please create file `.env` and insert your private key.
 
 Create file `.env`:
