@@ -1,8 +1,9 @@
 const { deployContract } = require("./deploy");
 const fs = require("fs");
+const path = require("path");
 
-// Membaca konfigurasi jaringan dari file JSON
-const networkConfig = JSON.parse(fs.readFileSync("networkConfig.json", "utf8"));
+// Membaca konfigurasi jaringan dari file JSON di dalam direktori chains
+const networkConfig = JSON.parse(fs.readFileSync(path.join(__dirname, "chains", "Testnet.json"), "utf8"));
 const network = networkConfig[0]; // Mengambil jaringan pertama dari array
 
 // Parameter token
