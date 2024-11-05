@@ -1,3 +1,4 @@
+require('dotenv').config(); // Ini akan memuat file .env
 require('colors');
 const ethers = require('ethers');
 const { generateContractCode } = require('./contractCode');

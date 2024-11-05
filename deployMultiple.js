@@ -1,4 +1,5 @@
-const { deployContract } = require("./deploy");
+require('dotenv').config(); // Ini akan memuat file .env
+const { deployContract } = require("./src/deploy");
 const fs = require("fs");
 const path = require("path");
 
