@@ -1,2 +1,8 @@
-Sebelum pemakaian ganti isi .ENV dan file Testnet.json untuk mengganti chainnya
-Ini adahal bot Deploy smart Contract deafult (tinggal enter)
+Please create file .env and insert your private key
+
+Create File 
+
+//Nano .env//
+
+Insert with template
+//PRIVATE_KEY=your_private_key_here//
