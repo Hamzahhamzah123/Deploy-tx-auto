@@ -1,8 +1,19 @@
-Please create file .env and insert your private key
+Please create file `.env` and insert your private key.
 
-Create File 
+Create file `.env`:
 
-//Nano .env//
+`nano .env`
 
-Insert with template
-//PRIVATE_KEY=your_private_key_here//
+Fill with Format
+
+`PRIVATE_KEY=your_private_key_here`
+
+
+
+
+
+Bridge Faucet: https://bridge.helium.fhenix.zone/
+
+Follow my Medium: @hamzahnorsihab07
+
+Follow my X: @MyStackBear`
